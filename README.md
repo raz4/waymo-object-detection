@@ -34,7 +34,7 @@ Official [instructions](https://github.com/tensorflow/models/blob/master/researc
 
 ## Training
 
-The model obtained from [Tensorflow 2 Detection Model Zoo](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/tf2_detection_zoo.md) is **"EfficientDet D4 1024x1024"**. This model provides a good balance between performance and accuracy. Training was conducted with 50,000 total steps and a batch size of 14 using **7 Nvidia Tesla V100 32GB GPUs**. The full training (and evaluation) parameters/values can be found in the [pipeline.config](exportmodel_waymo_v120_efficientdet_d4/pipeline.config) file.
+The pre-trained model obtained from [Tensorflow 2 Detection Model Zoo](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/tf2_detection_zoo.md) is **"EfficientDet D4 1024x1024"**. This model provides a good balance between performance and accuracy. Training was conducted with 50,000 total steps and a batch size of 14 using **7 Nvidia Tesla V100 32GB GPUs**. The full training (and evaluation) parameters/values can be found in the [pipeline.config](exportmodel_waymo_v120_efficientdet_d4/pipeline.config) file.
 
 ## Evaluation
 
